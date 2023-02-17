@@ -22,3 +22,71 @@ let state:State = State.idle;
 //类型验证
 let x  = 10;
 console.log(typeof color)
+console.log(color)
+
+type NewNumber = number;
+let num:NewNumber = 2;
+
+
+// 05运算符
+let num01:number = 10;
+num01++;
+let res:boolean = 5<3;
+
+// if(1 == 2){
+
+// }
+
+//逻辑运算符  &&  ||  !  逻辑于  逻辑或  逻辑非
+res = num > 2 && num <10;
+res = num <4 || num >10;
+res = !false;
+//赋值运算符 =   += -= ...
+
+
+//06 条件运算符
+let age =1;
+if (age >18){
+    console.log("audlt");
+}else{
+    console.log("child");
+}
+let score = 80;
+if (score >=0 && score<=59){
+    console.log("bujige");
+}
+
+//三目运算符
+num  = num >100 ? 100 : num;
+
+// switch (state){
+//     case State.idle:
+//         console.log("站立");
+//         break;
+//     case State.death:
+//         console.log("death");
+
+// }
+// 07 循环控制语句
+let i:number =0;
+let num02:number =0;
+while(i<5){
+    console.log("I Love ");
+    i++;
+}
+while(i<=100){
+    if(i % 2 == 0){
+        num02+=i;
+    }
+    i++;
+}
+console.log(num02)
+
+
+// for (in of )
+
+ 
+
+
+
+ 
