@@ -105,13 +105,43 @@ function add(num001:number,num002:number):number{
 }
 //return 只会执行一次。
 
-let add3 = (num1,num2):void=>{
-    return;
+// let add3 = (num1,num2):void=>{
+//     return;
+// }
+
+//09面向对象  10 构造与静态
+// function say(name:string,age:number){
+//     console.log(`大家好我叫${name}，${age}`)
+// }
+// say('shixiao',24);
+
+// 类
+// 类 ：人  对象：石晓辉。
+// 静态方法/属性：属于类 而不属于对象
+class Person1{
+    name:string = '';
+    age:number =0;
+
+    //构造方法
+    constructor(name:string,age:number){
+        this.name = name;
+        this.age = age;
+    }
+    say(){
+        console.log(this.name);
+    }
+    run(){
+        console.log(this.age)
+    }
 }
+let aa = new Person1('shi',25);
+aa.say();
+let b = new Person1('ss',24);
+//b.name = 'ss';
+b.say()
+b.run()
 
-//09面向对象
-
-
+//11 继承与抽象
  
 
 
