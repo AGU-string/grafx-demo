@@ -85,6 +85,33 @@ console.log(num02)
 
 // for (in of )
 
+
+//函数
+let arr:string[] = ['a','b','c','d','e'];
+function func(char:string){
+    for(let i=0;i<5;i++){
+        if(char==arr[i]){
+            console.log(`字符${i}`)
+        }
+        
+    }
+}
+func('a');
+func('b');
+
+function add(num001:number,num002:number):number{
+    let tmp:number = 1;
+    return tmp;
+}
+//return 只会执行一次。
+
+let add3 = (num1,num2):void=>{
+    return;
+}
+
+//09面向对象
+
+
  
 
 
